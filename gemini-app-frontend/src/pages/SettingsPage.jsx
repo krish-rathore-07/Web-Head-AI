@@ -15,9 +15,8 @@ KeyRound,
 } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
-import { deleteAccount, updateProfile } from "../services/userService";
+import { deleteAccount, updateProfile ,changePassword } from "../services/userService";
 import DeleteAccountModal from "../components/DeleteAccountModel";
-import { changePassword } from "../services/userService";
 import getErrorMessage from "../utils/getErrorMessage";
 import { useAuth } from "../context/AuthContext";
 // import { deleteAccount } from "../services/userService";
