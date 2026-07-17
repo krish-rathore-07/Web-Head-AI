@@ -19,8 +19,7 @@ import { deleteAccount, updateProfile ,changePassword } from "../services/userSe
 import DeleteAccountModal from "../components/DeleteAccountModel";
 import getErrorMessage from "../utils/getErrorMessage";
 import { useAuth } from "../context/AuthContext";
-// import { deleteAccount } from "../services/userService";
-// import { deleteAccount } from "../services/userService";
+
 
 const SettingsPage = () => {
   const navigate = useNavigate();
