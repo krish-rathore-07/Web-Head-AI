@@ -11,7 +11,7 @@ import java.util.Map;
 
 @RestController
 @AllArgsConstructor
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "http://localhost:5173","https://web-head-ai.vercel.app/")
 @RequestMapping("/api/qna")
 public class AIController {
 
